@@ -1,0 +1,13 @@
+requests==2.22.0
+pytesseract==0.3.1
+Django==3.0.2
+Pillow==7.0.0
+celery==4.4.0
+django-celery==3.3.1
+redis==3.3.11
+
+
+
+use the celery command below in commandline:
+
+	celery -A OCR worker -l debug
